@@ -14,6 +14,7 @@
 		071DFC202C59FEFF00D7E26E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 071DFC1F2C59FEFF00D7E26E /* Assets.xcassets */; };
 		071DFC232C59FEFF00D7E26E /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 071DFC222C59FEFF00D7E26E /* Base */; };
 		077708012C5CA623009171F1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 077708002C5CA623009171F1 /* Constants.swift */; };
+		07B472372C60A443004A4A01 /* StudentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B472362C60A443004A4A01 /* StudentModel.swift */; };
 		07FF59BC2C5B60AD000333CA /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FF59BB2C5B60AD000333CA /* DetailVC.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		071DFC222C59FEFF00D7E26E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		071DFC242C59FEFF00D7E26E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		077708002C5CA623009171F1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		07B472362C60A443004A4A01 /* StudentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentModel.swift; sourceTree = "<group>"; };
 		07FF59BB2C5B60AD000333CA /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +62,7 @@
 		071DFC152C59FEFE00D7E26E /* Weather */ = {
 			isa = PBXGroup;
 			children = (
+				077708002C5CA623009171F1 /* Constants.swift */,
 				07FF59B82C5B59FA000333CA /* Model */,
 				07FF59B92C5B5A02000333CA /* View */,
 				07FF59BA2C5B5A08000333CA /* Controller */,
@@ -68,7 +71,6 @@
 				071DFC1F2C59FEFF00D7E26E /* Assets.xcassets */,
 				071DFC212C59FEFF00D7E26E /* LaunchScreen.storyboard */,
 				071DFC242C59FEFF00D7E26E /* Info.plist */,
-				077708002C5CA623009171F1 /* Constants.swift */,
 			);
 			path = Weather;
 			sourceTree = "<group>";
@@ -76,6 +78,7 @@
 		07FF59B82C5B59FA000333CA /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				07B472362C60A443004A4A01 /* StudentModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				077708012C5CA623009171F1 /* Constants.swift in Sources */,
+				07B472372C60A443004A4A01 /* StudentModel.swift in Sources */,
 				071DFC1B2C59FEFE00D7E26E /* HomeVC.swift in Sources */,
 				07FF59BC2C5B60AD000333CA /* DetailVC.swift in Sources */,
 				071DFC172C59FEFE00D7E26E /* AppDelegate.swift in Sources */,
