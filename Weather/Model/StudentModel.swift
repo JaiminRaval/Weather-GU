@@ -9,6 +9,7 @@ import Foundation
 
 
 struct StudentModel {
+    
     let name: String
     let course: String
     let rollno: Int?

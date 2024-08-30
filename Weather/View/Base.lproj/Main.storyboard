@@ -17,7 +17,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="lnq-tF-hae">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg-dark" translatesAutoresizingMaskIntoConstraints="NO" id="lnq-tF-hae">
                                 <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -27,7 +27,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Fetch"/>
                                 <connections>
-                                    <action selector="fetchBtnPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M2G-xc-84w"/>
+                                    <action selector="fetchPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rm7-Kf-hZB"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -36,9 +36,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="Vsz-aU-Wk1"/>
                     <connections>
-                        <outlet property="backgroundImg" destination="lnq-tF-hae" id="5Ug-oE-tdP"/>
-                        <outlet property="fetchBtn" destination="Nte-Id-6ak" id="poP-1e-ota"/>
-                        <segue destination="P73-8P-kUE" kind="show" identifier="NavigateToDetail" id="FTh-os-BDy"/>
+                        <outlet property="fetchBtn" destination="Nte-Id-6ak" id="yqj-ti-ZPi"/>
+                        <segue destination="P73-8P-kUE" kind="show" identifier="NavigateToDetail" id="dl0-BJ-veN"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -75,6 +74,7 @@
         <!--View Controller-->
         <scene sceneID="jXh-Ls-xcT">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Emn-WN-YjQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
                 <viewController id="wk9-wa-sgh" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mte-uj-JeI">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
@@ -84,9 +84,8 @@
                     </view>
                     <navigationItem key="navigationItem" id="lQa-aE-j2n"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Emn-WN-YjQ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3729" y="51"/>
+            <point key="canvasLocation" x="4037" y="-2"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="u0d-9V-rMd">
@@ -108,7 +107,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="bg" width="640" height="960"/>
+        <image name="bg-dark" width="640" height="966"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
